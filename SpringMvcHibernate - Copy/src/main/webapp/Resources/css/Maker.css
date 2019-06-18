@@ -1,0 +1,26 @@
+
+.navbar-nav .nav-item .nav-link{
+color: #fff;
+}
+
+
+@media screen and (min-width: 768px){
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+    .dropdown-toggle{
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+    }
+}
+a.button {
+
+    text-decoration: none;
+    color: red;
+}   
+
